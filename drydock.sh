@@ -30,7 +30,7 @@ function main
 
     image=$1; shift
 
-    docker build -t=$image "$@" | tee "$logfile"
+    docker build -t=$image "${@:-.}" | tee "$logfile"
     if [ ${PIPESTATUS[0]} != 0 ]
     then
         fail_image="$FAILURE_IMAGE"
