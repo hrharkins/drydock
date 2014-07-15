@@ -2,12 +2,10 @@
 drydock
 =======
 
-== drydock.sh
-
 Simple controller script/image to manage building docker images, handling
 failure gracefully.
 
-== Installation
+## Installation
 
 Copy or symlink drydock.sh into your path.  Assuming you have a ~/bin/ that
 is part of your path here is an example:
@@ -15,7 +13,7 @@ is part of your path here is an example:
 $ chmod +x drydock.sh
 $ ln -sf $PWD/drydock.sh $HOME/bin/
 
-== Usage
+## Usage
 
     drydock image-name
 
