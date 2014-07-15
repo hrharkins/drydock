@@ -1,3 +1,7 @@
+=======
+drydock
+=======
+
 == drydock.sh
 
 Simple controller script/image to manage building docker images, handling
